@@ -1,6 +1,6 @@
 <h1>ExpNo 2 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3>Name: Vaishnav V</h3>
-<h3>Register Number:  212224060291</h3>
+<h3>Name: Vaishnav V
+<h3>Register Number:212224060291
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -53,11 +53,9 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>Find its Successors Or neighbors and Check whether the node is visited or not</li>
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
-
-##Program
-```
+# PROGRAM
 # Depth First Search (DFS) Implementation
-
+```python
 def dfs(graph, start):
     visited = set()
     stack = [start]
@@ -93,14 +91,7 @@ if __name__ == "__main__":
 
     result = dfs(graph, start_node)
     print(result)
-
-```
-
-
-<img width="381" height="302" alt="image" src="https://github.com/user-attachments/assets/0a1e28ec-9737-400a-9c62-772c2324416c" />
-
-
-<hr>
+ ```
 <h3>Sample Input</h3>
 <hr>
 8 9 <BR>
@@ -138,4 +129,3 @@ F H <BR>
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
-
